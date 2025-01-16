@@ -65,7 +65,6 @@
         </el-form-item>
       </el-form>
     </div>
-    <copy-right />
   </div>
 </template>
 
@@ -76,7 +75,7 @@ import {createCanvas} from '@/utils/cvcode'
 import canvasImg from './../../static/image/canvas2.jpg'
 import { accountReg, passwordReg } from '@/utils/index'
 import avatarChoose from '@/components/avatarChoose'
-import copyRight from '@/components/copyright'
+
 const faceRandom = Math.ceil(Math.random()*10)
 export default {
   name: 'Login',
@@ -206,7 +205,6 @@ export default {
   },
   components: {
     avatarChoose,
-    copyRight
   },
   async mounted() {
     this.getCVCode()

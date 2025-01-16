@@ -70,6 +70,8 @@ export default {
     display: flex;
     flex-direction: column;
     .oper-item {
+      font-size: 14px;
+
       line-height: 20px;
       margin-top: 10px;
     }

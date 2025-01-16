@@ -29,12 +29,12 @@
         <el-dialog
           title="附加消息"
           :visible.sync="showAdditionMessage"
-          width="60%"
+          width="400px"
         >
           <div v-loading="loading">
             <el-input
               type="textarea"
-              :rows="2"
+              :rows="4"
               placeholder="请输入内容"
               v-model="additionMessage">
             </el-input>

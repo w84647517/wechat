@@ -6,9 +6,7 @@
     >
       <top-search />
     </div>
-    <div class="todo">
-      <todo />
-    </div>
+
     <el-tabs type="border-card" :stretch="true">
       <el-tab-pane>
         <span slot="label"><i class="el-icon-chat-line-round"></i></span>
@@ -163,7 +161,7 @@ export default {
     padding-bottom: 10px;
   }
   .el-tabs.el-tabs--top.el-tabs--border-card {
-    height: calc(100% - 120px);
+    height: calc(100% - 70px);
     overflow-x: hidden;
     background-color: $normalbg;
     .el-tabs__header {

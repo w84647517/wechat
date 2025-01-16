@@ -2,7 +2,7 @@
   <div class="group-desc-com">
     <div class="notice">
       <span>
-        富强、民主、文明、和谐、自由、平等、公正、法治，倡导爱国、敬业、诚信、友善
+        暂无群公告
       </span>
     </div>
     <div class="member">
@@ -48,6 +48,9 @@ export default {
   width: 100%;
   border-left: 1px solid #cccccc;
   .notice {
+    padding: 10px;
+    color: #cccccc;
+    font-size: 12px;
     height: 50%;
     border-bottom: 1px solid #cccccc;
   }
